@@ -36,7 +36,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(session({
-  secret: process.env.SECRET,
+  secret: 'learn node',
   resave: true,
   saveUninitialized: false
 }));
